@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 10px;
+}
+
+h1 {
+   	font-size: 40px;
+    text-align: center;
+    color:red;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+
+}
+p {
+    font-family: verdana;
+    font-size: 15px;
+
+}
+img{
+	border-radius: 10%;
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.19);
+    filter: drop-shadow(2px 3px 5px black);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+
+}
+ul{
+	margin-left: 30px;
+
+}
+img:hover {
+   -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.country{
+	color: blue;
+	text-align: center;
+
+}
+.food{
+	display: block;
+    margin: auto;
+   
+}
